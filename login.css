@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+html{
+    font-family: 'Mulish', sans-serif;
+    overflow: hidden;
+}
+.dialog {
+  position: absolute;
+width: 451px;
+height: 520px;
+left: 550px;
+    top: 50px;
+/* White */
+
+background: #FFFFFF;
+box-shadow: 0px 12px 24px rgba(18, 38, 63, 0.05);
+border-radius: 4px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 36px 0px;
+
+}
+
+.l-form {
+    position: absolute;
+width: 600px;
+height: 380px;
+left: 0px;
+top: 87px;
+
+/* White */
+border-radius: 0px 0px 4px 4px;
+    margin: 20px;
+    margin-top: 80px;
+}
+
+.l-top {
+    position: absolute;
+width: 451px;
+height: 130px;
+left: 0px;
+top: -35px;
+
+background: #DEEEFE;
+border-radius: 4px 4px 0px 0px;
+}
+
+.profile-t {
+    position: absolute;
+width: 173px;
+height: 112px;
+right: 0px;
+top: calc(50% - 112px/2);
+
+background: url(profile-img.png);
+}
+
+.headers {
+    position: absolute;
+left: 5%;
+right: 8.33%;
+top: 20%;
+bottom: 0%;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: 500;
+font-size: 16.25px;
+line-height: 19px;
+/* identical to box height, or 120% */
+
+
+/* Primary */
+
+color: #556EE6;
+
+}
+
+.paras {
+ position: absolute;
+left: 5%;
+right: 0%;
+top: 20%;
+bottom: 0%;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height, or 150% */
+
+
+/* Primary */
+
+color: #556EE6;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 33px 0px;
+
+}
+
+.avatar {
+
+width: 72px;
+height: 72px;
+left: 0px;
+top: 0px;
+
+background: url(44.jpg);
+     position: absolute;
+width: 72px;
+height: 72px;
+left: 24px;
+top: calc(50% - 72px/2);
+
+/* White */
+
+background: #FFFFFF;
+/* Whisper */
+
+border: 3px solid #F8F8FB;
+box-sizing: border-box;
+    transform: translate(-5%,-211%);
+border-radius: 72px;
+}
+
+.c-avatar {
+   
+}
+
+#user {
+    width:395px;
+Height:36px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-family: Mulish;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height, or 150% */
+
+
+/* Trout */
+    border: 1px solid #CED4DA;
+    padding: 10px;
+
+color: #495057;
+
+    
+}
+
+#password {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-family: Mulish;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height, or 150% */
+
+
+/* Trout */
+
+color: #495057;
+   width:395px;
+Height:36px;
+    border-radius: 4px;
+    border: 1px solid #CED4DA;
+    padding: 10px;
+}
+
+#remember1 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-family: Mulish;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height, or 150% */
+
+
+/* Trout */
+
+color: #495057;
+       width:20px;
+Height:36px;
+    border-radius: 4px;
+    transform: translate(10px,12px);
+    border: 1px solid #CED4DA;
+    margin-right: 15px;
+    border: 1px solid #CED4DA;
+
+}
+
+.box-c {
+    transform: translate(0%,-45%);
+    
+}
+
+.form {
+     font-family: Mulish;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height, or 150% */
+
+
+/* Trout */
+
+color: #495057;
+}
+
+.login {
+    Width:395px;
+Height:36px;
+    border-radius: 4px;
+    background: #458FF6;
+    
+    border: 1px solid #458FF6;
+    color: #fff;
+
+
+}
+
+.dia-form {
+    
+}
+
+.pass-l {
+    transform: translate(45%,2653%);
+    font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height, or 150% */
+
+
+/* Storm Gray */
+
+color: #74788D;
+
+
+}
+
+.box-c label{
+    transform: translate(10%,10%);
+}
+
+
+.re {
+    transform: translate(10%,10%);
+}
+
+.form1 {
+    font-family: Mulish;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height, or 150% */
+
+
+/* Trout */
+
+color: #495057;
+    transform: translate(10px,10px);
+}
+.pass-l a{
+    text-decoration: none;
+    color:  #74788D;
+
+}
+
+.luk {
+    padding: 10px;
+}
+
+.si-logo {
+transform: translate(46px,16px);
+}
+
+.down-li {
+    transform:translate(42%,2836%);
+}
+.down-li a{
+text-decoration: none;
+    color: #556EE6;
+}
