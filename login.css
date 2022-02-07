@@ -238,8 +238,15 @@ Height:36px;
     
     border: 1px solid #458FF6;
     color: #fff;
+    cursor: pointer;
 
 
+}
+.login:hover{
+
+background-color: #fff;
+    color: #458FF6;
+    cursor: pointer;
 }
 
 .dia-form {
